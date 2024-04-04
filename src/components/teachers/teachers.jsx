@@ -53,7 +53,7 @@ export default function Teachers(){
         <div className="swiper" id='teacher'>
             <div className="swiper-wrapper">
                     <div className="teacher__item swiper-slide">
-                        <img src="public/people1.jpg"/>
+                        <img src="img/people1.jpg"/>
                         <h2 className="subtitle">
                             Ирина Лайм
                         </h2>
@@ -61,7 +61,7 @@ export default function Teachers(){
                         <p className="description teacher__description">Подробнее</p>
                     </div>
                     <div className="teacher__item swiper-slide">
-                        <img src="/src/img/people2.jpg"/>
+                        <img src="/img/people2.jpg"/>
                         <h2 className="subtitle">
                             Марина Орлова
                         </h2>
@@ -69,21 +69,21 @@ export default function Teachers(){
                         <p className="description teacher__description">Подробнее</p>
                     </div>
                     <div className="teacher__item swiper-slide">
-                        <img src="/src/img/people3.jpg"/>
+                        <img src="/img/people3.jpg"/>
                         <h2 className="subtitle">
                             Марина Орлова
                         </h2>
                         <p className="description">Преподователь по робототехнике</p>
                         <p className=" description teacher__description">Подробнее</p></div>
                     <div className="teacher__item swiper-slide">
-                        <img src="/src/img/people4.jpg"/>
+                        <img src="/img/people4.jpg"/>
                         <h2 className="subtitle">
                             Марина Орлова
                         </h2>
                         <p className="description">Преподователь по робототехнике</p>
                         <p className="description teacher__description">Подробнее</p></div>
                     <div className="teacher__item swiper-slide">
-                        <img src="/src/img/people5.jpg"/>
+                        <img src="/img/people5.jpg"/>
                         <h2 className="subtitle">
                             Марина Орлова
                         </h2>
