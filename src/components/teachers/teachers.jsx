@@ -53,7 +53,7 @@ export default function Teachers(){
         <div className="swiper" id='teacher'>
             <div className="swiper-wrapper">
                     <div className="teacher__item swiper-slide">
-                        <img src="/src/img/people1.jpg"/>
+                        <img src="public/people1.jpg"/>
                         <h2 className="subtitle">
                             Ирина Лайм
                         </h2>
