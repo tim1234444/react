@@ -1,0 +1,44 @@
+.price{
+    display: block;
+    &__container{
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+    }
+    &__grid-list{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+        grid-template-rows: 460px;
+        gap:40px;
+    }
+    &__item{
+        height: 460px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10% ;
+        border-radius: 20px;
+        border: 1px solid rgba(20, 16, 36, 0.2);
+    
+    }
+    &__course-name{
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 160%;
+    
+    }
+    &__content{
+        text-align: center;
+    
+    }
+    
+    &_btn-click{
+        padding: 25px 54px;
+    }
+}
+
+.description--black{
+    color: #141024;
+}

@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #141024;
+    color: #FFFFFF;
+    padding: 30px 50px;
+    &__list{
+        display: flex;
+        gap: 40px;
+    
+    }
+    &__item{
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 160%;
+        }
+    
+   
+    
+    &__mobile-number-and-button{
+        display: none;
+    }
+    
+}
+

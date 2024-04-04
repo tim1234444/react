@@ -1,0 +1,45 @@
+.teacher{
+    padding: 120px 0;
+    &_container{
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+    &__item{
+        
+        display: flex;
+        flex-direction: column;
+        flex: none
+    }
+    &__reset-spisok{
+        gap: 40px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        grid-template-columns: repeat(5,300px);
+        overflow: hidden;
+        display: grid;
+    }
+    
+    &__description{
+        color: #d52027;
+        margin-top: 20px;
+    }
+}
+.actions{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.prev, .next{
+    width: 40px;
+    height: 40px;
+}
+.prev{
+    background: url(/src/Arrow_Right_Circle.svg)
+    center / 100% 100% no-repeat;
+}
+.next{
+    background: url(/src/Arrow_left_Circle.svg)
+    center / 100% 100% no-repeat;
+}
+

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;600;700&family=Nunito+Sans:opsz,wght@6..12,700&family=Source+Sans+3:wght@400;700&display=swap');
+@mixin fluid-text($min: 16, $max:48){
+    font-size: clamp(#{$min}px, #{$max / 768 * 100}vw, #{$max}px);
+}
+:root {
+    --font-family: "Jost", sans-serif;
+  }
+.logo{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 30px;
+    color:  #fff;;
+    
+
+}
+.title{
+    font-family: var(--font-family);
+    font-weight: 600;
+    @include fluid-text($min:30,$max:50 )
+}
+
+
+.subtitle{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1190px;
+}
+.btn-click{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    background-color: #D52027;
+    color:#FFFFFF;
+    border-radius: 5px;
+}
+.description{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(20, 16, 36, 0.7);
+}
+.telethon-number{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 160%;
+    color:  #fff;;
+}
+.paragrath{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+@import 
+    "header/header",
+    "hello_school/hello_school",
+    "../reset",
+    "achivment/achivment",
+    "end_course/end_course",
+    "teachers/teachers",
+    "price/price",
+    "report/report",
+    "footer/footer",
+    "../media"
+   
+
+   

@@ -1,0 +1,33 @@
+.achivment{
+    padding: 120px 0px;
+    &__container{
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+    
+    &__title{
+        max-width: 891px;
+        font-weight: 400;
+        font-family: var(--font-family);
+        font-size: 30px;
+        color: #141024;
+        @include fluid-text($min:20, $max:30)
+    }
+    &__grid-list{
+        grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+        display: grid;
+        gap: 40px;
+    }
+    &__item{
+        font-family: var(--font-family);
+        font-size: 18px;
+        font-weight: 400;
+    }
+    
+    &__amount{
+        color:#D52027;
+        font-size: 70px;
+        font-weight: 600;
+    }
+}

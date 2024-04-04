@@ -1,0 +1,50 @@
+
+.report{
+    margin-top:  120px; 
+    background-color:#D52027 ;
+    &__container{
+        padding: 87px 60px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(293px, 1fr));
+        gap: 64px;
+    }
+    &__title{
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 130%;
+        @include fluid-text($min:30, $max:36)
+    }
+    &__left{
+        color: #FFFFFF;
+    }
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+    &__input{
+        background-color: #F6F6F6;
+        padding: 20px;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 18px;
+        border-radius: 5px;
+    }
+    &__button{
+        background-color: #141024;
+        color: #FFFFFF;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 18px;
+        padding: 19px 0px;
+    }
+}
+.description--white{
+    color: #fff;;
+}
+
+

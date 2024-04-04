@@ -1,0 +1,33 @@
+
+.first-section{
+    background-color: #141024;
+    
+    &__container{
+        display: grid;
+        color: #FFFFFF;
+        gap: 20px;
+        grid-template-columns: repeat(auto-fit, minmax(480px, 1fr))
+       }
+       &__text{
+        margin: auto;
+    }
+    &__text-article {
+        max-width: 546px;
+    }
+    &__name-school{
+        font-family: var(--font-family);
+        font-size: 70px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    
+    &__btn-click{
+        padding: 25px 54px;
+        margin-top: 50px;
+        color:#FFFFFF
+    }
+    }
+
+
+
+

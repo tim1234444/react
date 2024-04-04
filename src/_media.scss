@@ -1,0 +1,148 @@
+@media (max-width: 1440px){
+    .achivment__grid-list{
+        grid-template-columns:  repeat(auto-fit, minmax(375px, 1fr));
+        text-align: center;}
+    .first-section__name-school{
+            font-size: 48px;
+        }
+        
+    }
+@media (max-width: 1024px){
+    /* Header */
+    .logo{
+        font-size: 24px;
+    }
+    .header__nav {
+        z-index: 500;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        background-color: #141024;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.25);
+        transition: transform 0.3s linear;
+      }
+    
+    .header__nav.active {
+        transform: translateX(100%);
+      }
+    
+    .header__list{
+        
+        display: flex;
+        flex-direction: column;
+        
+        
+      }
+    .telethon-number--none{
+        display: none;
+    }
+    .header{
+        padding: 30px 15px;
+    }
+    .header__mobile-number-and-button{
+        display: flex;
+        gap:15px;
+        
+    }
+    
+    
+    
+    .first-section__container{
+        grid-template-columns: repeat(1, minmax(280px, 1fr))
+    }
+    
+    .first-section__text-article{
+        text-align: center;
+    }
+    .first-section__image{
+        max-width: 70%;
+        display: block;
+        margin: auto;
+
+    }
+
+     /* achivment */
+    
+    .achivment{
+        padding: 60px 0px;
+    }
+    .end-course{
+        text-align: center;
+    }
+    .end-course__grid-list{
+        grid-template-columns: repeat(1, minmax(270px, 1fr));
+    }
+    .end-course__tooltip{
+        justify-content: center;
+    }
+    
+    
+    
+    
+}
+        
+        
+@media (max-width: 770px) {
+    .report__left{
+        text-align: center;
+    }
+    .form{
+        width: 70vw;
+        margin: auto;
+    }
+}
+
+@media (max-width: 768px){
+    .first-section__btn-click{
+        position: absolute;
+        bottom: 40px;
+        z-index: 200;
+        left: 15px;
+        right: 15px;
+        padding: 25px 15px;
+    }
+    .first-section{
+        position: relative;
+        padding-bottom: 40px;
+    }
+    
+}
+    
+
+
+@media (max-width: 576px) {
+    /* first-section */
+    .first-section__name-school{
+        font-size: 30px;
+    }
+    
+    .logo{
+        font-size: 20px;
+    }
+    .paragrath{
+        font-size: 16px;
+    }
+    .description{
+        font-size: 16px;
+    }
+    .achivment__grid-list{
+        grid-template-columns:  repeat(auto-fit, minmax(270px, 1fr));
+        
+    }
+    .price__grid-list{
+        grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    }
+    .report__container{
+        padding: 40px 0px;
+    }
+   
+    
+    
+    
+}

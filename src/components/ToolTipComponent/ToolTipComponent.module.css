@@ -1,0 +1,23 @@
+.container {
+    position: relative;
+    
+  }
+  
+  .tooltip {
+    box-shadow: 0 2px 8px 0 rgba(20, 16, 36, 0.1);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    position: absolute;
+    width: 251px;
+    padding: 15px 20px;    
+    bottom: 60px;
+    left: 10px;
+    color: #141024;
+    background-color: #FFFFFF;
+    border-radius: 12px ;
+    text-align: center;
+    white-space: pre-line;
+   
+    pointer-events: none;
+  }

@@ -1,0 +1,15 @@
+.footer{
+    background-color: #141024;
+    padding: 40px 0px;
+    &__logo{
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.7);
+    }
+    &__container{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+}
