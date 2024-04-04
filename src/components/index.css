@@ -303,7 +303,7 @@ legend {
 }
 .price__grid-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-template-rows: 460px;
   gap: 40px;
 }
