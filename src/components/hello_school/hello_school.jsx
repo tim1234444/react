@@ -11,7 +11,7 @@ export default function HelloSchool(){
                     
                 </div>
                 <div>
-                <img className="first-section__image" src="./src/img/Group 211.png" alt="" />
+                <img className="first-section__image" src="img/log.png" alt="" />
                 </div>
             </div>
             </section>
