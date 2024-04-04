@@ -19,7 +19,7 @@ export default function Header(){
                     +7 800 000 11 22
                 </h1>
                 <div className="header__mobile-number-and-button">
-                    <img src="src/img/Group 312.png"></img>
+                    <img src={`${process.env.PUBLIC_URL}/img/log.png`}></img>
                     <MenuButton isActive={isOpen} onClick={() => setOpen(!isOpen)} />
                 </div>
             </div>
