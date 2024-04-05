@@ -1,6 +1,6 @@
 export default function Price(){
     return(
-    <section className="price">
+    <section className="price" id="price">
             <div className="container price__container">
                 <h1 className="title">Выберите нужный пакет</h1>
                 <div className="price__grid-list">

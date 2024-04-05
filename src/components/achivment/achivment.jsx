@@ -1,6 +1,6 @@
 export default function Achivment(){
     return(
-        <section className="achivment">
+        <section className="achivment" id="school">
                 <div className="container achivment__container">
                     <h2 className ="achivment__title">
                         <b>Robo School </b>– учреждение для формирования кадрового педагогического резерва в сфере робототехники и программирования

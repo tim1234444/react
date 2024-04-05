@@ -1,6 +1,6 @@
 export default function HelloSchool(){
     return(
-        <section className="first-section">
+        <section className="first-section" >
         <div className="first-section__container container">
                 <div className="first-section__text ">
                     <article className="first-section__text-article">

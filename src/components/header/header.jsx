@@ -9,9 +9,11 @@ export default function Header(){
                 <h1 className="logo">ROBO.SCHOOL</h1>
                 <nav className={`header__nav ${isOpen ? "active" : ""}`}>
                     <ul className = "header__list">
-                        <li className="header__item">О школе</li>
-                        <li className="header__item">Тренеры</li>
-                        <li className="header__item">Стоймость</li>
+                        <li className="header__item">
+                            <a className="header__link" href="#school">О школе</a>
+                            </li>
+                        <li className="header__item"><a className="header__link" href="#coachers">Тренеры</a></li>
+                        <li className="header__item"><a className="header__link" href="#price">Стоймость</a></li>
                     </ul>
                 </nav>
                 

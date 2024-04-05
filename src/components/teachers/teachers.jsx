@@ -44,7 +44,7 @@ export default function Teachers(){
     
     
     return(
-    <section className="teacher" >
+    <section className="teacher"  id='coachers'>
     <div className="container teacher_container">
         <h1 className="title">
             Профессиональные тренеры
@@ -92,13 +92,14 @@ export default function Teachers(){
 
             </div>
             <div className="swiper__navigation">
+                
+                <div className="swiper__scrollbar">
+
+                </div>
                 <div className="actions">
                 
                 <div className="prev"></div>
                 <div className="next"></div>
-
-                </div>
-                <div className="swiper__scrollbar">
 
                 </div>
             </div>
