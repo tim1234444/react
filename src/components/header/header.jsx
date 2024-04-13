@@ -4,8 +4,8 @@ export default function Header(){
     const [isOpen, setOpen] = useState();
     return (
        
-    <header>
-            <div className="header">
+    <header className="header">
+            <div className="header__container container">
                 <h1 className="logo">ROBO.SCHOOL</h1>
                 <nav className={`header__nav ${isOpen ? "active" : ""}`}>
                     <ul className = "header__list">

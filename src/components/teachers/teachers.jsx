@@ -78,14 +78,14 @@ export default function Teachers(){
                     <div className="teacher__item swiper-slide">
                         <img src="/img/people4.jpg"/>
                         <h2 className="subtitle">
-                            Марина Орлова
+                            Петр
                         </h2>
                         <p className="description">Преподователь по робототехнике</p>
                         <p className="description teacher__description">Подробнее</p></div>
                     <div className="teacher__item swiper-slide">
                         <img src="/img/people5.jpg"/>
                         <h2 className="subtitle">
-                            Марина Орлова
+                            Павел
                         </h2>
                         <p className="description">Преподователь по робототехнике</p>
                         <p className="description teacher__description">Подробнее</p></div>

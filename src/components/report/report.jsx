@@ -2,8 +2,8 @@ export default function Report(){
     return( <section className="report">
     <div className="container report__container">
         <div className="report__left">
-              <h2 className="report__title">Запишитесь на курс <br/> со скидкой 10%</h2>
-              <p className="description description--white">Акция действительна до 10 марта 2022 года</p>
+              <h2 className="report__title">Запишитесь на&nbsp;курс <br/> со скидкой 10%</h2>
+              <p className="description description--white report__description">Акция действительна до&nbsp;10&nbsp;марта 2022 года</p>
           </div>
           <form  className="form ">
               <input type="text" className="form__input " placeholder="Имя"/>

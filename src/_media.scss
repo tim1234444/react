@@ -9,9 +9,7 @@
     }
 @media (max-width: 1024px){
     /* Header */
-    .logo{
-        font-size: 24px;
-    }
+    
     .header__nav {
         z-index: 500;
         position: fixed;
@@ -42,7 +40,7 @@
     .telethon-number--none{
         display: none;
     }
-    .header{
+    .header__container{
         padding: 30px 15px;
     }
     .header__mobile-number-and-button{
@@ -88,12 +86,12 @@
 }
         
         
-@media (max-width: 770px) {
+@media (width < 784px) {
     .report__left{
         text-align: center;
     }
     .form{
-        width: 70vw;
+        width: 80vw;
         margin: auto;
     }
 }
@@ -122,9 +120,7 @@
         font-size: 30px;
     }
     
-    .logo{
-        font-size: 20px;
-    }
+    
     .paragrath{
         font-size: 16px;
     }
@@ -139,7 +135,7 @@
         grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
     }
     .report__container{
-        padding: 40px 0px;
+        padding: 40px 15px;
     }
    
     

@@ -6,7 +6,7 @@
 .logo {
   font-family: var(--font-family);
   font-weight: 700;
-  font-size: 30px;
+  font-size: clamp(18px, 3.90625vw, 30px);
   color: #fff;
 }
 
@@ -49,7 +49,7 @@
 .telethon-number {
   font-family: var(--font-family);
   font-weight: 600;
-  font-size: 30px;
+  font-size: clamp(16px, 3.90625vw, 30px);
   line-height: 160%;
   color: #fff;
 }
@@ -62,12 +62,15 @@
 }
 
 .header {
+  background-color: #141024;
+}
+.header__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #141024;
   color: #FFFFFF;
   padding: 30px 50px;
+  max-width: 1750px;
 }
 .header__list {
   display: flex;
@@ -367,7 +370,7 @@ legend {
 .report__container {
   padding: 87px 60px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(293px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 64px;
 }
 .report__title {
@@ -379,6 +382,9 @@ legend {
 }
 .report__left {
   color: #FFFFFF;
+}
+.report__description {
+  margin-top: 20px;
 }
 
 .form {
@@ -415,14 +421,36 @@ legend {
 .footer__logo {
   font-family: var(--font-family);
   font-weight: 400;
-  font-size: 16px;
+  font-size: clamp(14px, 2.0833333333vw, 16px);
   color: rgba(255, 255, 255, 0.7);
 }
 .footer__container {
+  max-width: 1720px;
+}
+.footer__content {
   display: flex;
   justify-content: space-between;
 }
 
+@media (max-width: 425px) {
+  .footer__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__logo {
+    margin-top: 40px;
+    text-align: center;
+    order: 3;
+  }
+  .footer__telethon-number {
+    margin-top: 20px;
+    order: 2;
+  }
+  .footer__content {
+    flex-direction: column;
+  }
+}
 @media (max-width: 1440px) {
   .achivment__grid-list {
     grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
@@ -434,9 +462,6 @@ legend {
 }
 @media (max-width: 1024px) {
   /* Header */
-  .logo {
-    font-size: 24px;
-  }
   .header__nav {
     z-index: 500;
     position: fixed;
@@ -462,7 +487,7 @@ legend {
   .telethon-number--none {
     display: none;
   }
-  .header {
+  .header__container {
     padding: 30px 15px;
   }
   .header__mobile-number-and-button {
@@ -494,12 +519,12 @@ legend {
     justify-content: center;
   }
 }
-@media (max-width: 770px) {
+@media (width < 784px) {
   .report__left {
     text-align: center;
   }
   .form {
-    width: 70vw;
+    width: 80vw;
     margin: auto;
   }
 }
@@ -522,9 +547,6 @@ legend {
   .first-section__name-school {
     font-size: 30px;
   }
-  .logo {
-    font-size: 20px;
-  }
   .paragrath {
     font-size: 16px;
   }
@@ -538,6 +560,6 @@ legend {
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   }
   .report__container {
-    padding: 40px 0px;
+    padding: 40px 15px;
   }
 }/*# sourceMappingURL=index.css.map */

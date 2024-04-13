@@ -4,12 +4,36 @@
     &__logo{
         font-family: var(--font-family);
         font-weight: 400;
-        font-size: 16px;
+        @include fluid-text($min:14,$max:16 );
         color: rgba(255, 255, 255, 0.7);
     }
     &__container{
+        max-width: 1720px;
+    }
+    &__content{
         display: flex;
         justify-content: space-between;
     }
     
+}
+@media (max-width: 425px){
+    .footer__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      
+    }
+    .footer__logo{
+        margin-top: 40px;
+        text-align: center;
+        order: 3;
+    }
+    .footer__telethon-number{
+        margin-top: 20px;
+        order: 2;
+    }
+    .footer__content{
+        flex-direction: column;
+
+    }
 }
